@@ -10,7 +10,7 @@ func TestAttributesCarryRoutingAndVersion(t *testing.T) {
 	attrs := eventkit.Attributes(sample())
 	for k, want := range map[string]string{
 		eventkit.AttrVersion:  eventkit.Version,
-		eventkit.AttrOrg:      "gabor-devhub",
+		eventkit.AttrOrg:      "example-org",
 		eventkit.AttrStream:   "LoginEventStream",
 		eventkit.AttrCategory: "authentication",
 	} {

@@ -11,19 +11,19 @@ import (
 
 func sample() eventkit.Event {
 	return eventkit.Event{
-		Org: "gabor-devhub", OrgID: "00DgL00000ULZkfUAH",
+		Org: "example-org", OrgID: "00D000000000000EAA",
 		Stream: "LoginEventStream", Topic: "/event/LoginEventStream",
 		Category:   "authentication",
 		ID:         "5a2c1e6b-bfa2-4f7c-83cb-4aad246c29ce",
 		Time:       time.Date(2026, 9, 14, 10, 8, 20, 0, time.UTC),
-		UserID:     "005gL00000KAxhdQAD",
+		UserID:     "005000000000000AAA",
 		ReplayID:   []byte{0, 0, 0, 0, 0, 0, 176, 68},
 		SchemaID:   "Ow_p0ZSXHeyq3O8mqmKtFA",
 		ReceivedAt: time.Date(2026, 9, 14, 10, 8, 23, 0, time.UTC),
 		ReplayMode: "latest",
 		Fields: map[string]any{
 			"EventIdentifier": "5a2c1e6b-bfa2-4f7c-83cb-4aad246c29ce",
-			"UserId":          "005gL00000KAxhdQAD",
+			"UserId":          "005000000000000AAA",
 			"LoginKey":        "[redacted]",
 		},
 	}
